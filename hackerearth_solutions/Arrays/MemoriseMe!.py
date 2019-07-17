@@ -9,3 +9,4 @@ for i in range(q):
         print(occurences[x])
     else:
         print("NOT PRESENT")
+ #
