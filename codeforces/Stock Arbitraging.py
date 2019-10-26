@@ -1,0 +1,6 @@
+[n,m,r]=list(int(i) for i in input().split())
+s=list(int(i) for i in input().split())
+b=list(int(i) for i in input().split())
+a=min(s)
+b=max(b)
+print(max((r%a)+(r//a)*b,r))
