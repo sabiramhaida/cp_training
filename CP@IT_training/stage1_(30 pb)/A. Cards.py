@@ -1,0 +1,5 @@
+input()
+s=input()
+count_one=s.count('n')
+count_zero=s.count('z')
+print('1 '*count_one+'0 '*count_zero)
